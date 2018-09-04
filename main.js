@@ -1,8 +1,9 @@
 ﻿'use strict';
 
 
-define('main', ['backtesting'], function (backtesting) {
+define('main', ['backtesting','graph'], function (backtesting, graph) {
 	backtesting.init();
+	graph.init();
 
 	$(document).ready(function () {
 
