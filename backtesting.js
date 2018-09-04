@@ -306,7 +306,7 @@ define('backtesting', ['Handsontable'], function (Handsontable) {
 		minRows: 50,
 		//manualRowResize: true,
 		//manualColumnResize: true,
-		//rowHeaders: true,
+		rowHeaders: true,
 		colHeaders: [
 		'날짜',
 		'롱/숏',
